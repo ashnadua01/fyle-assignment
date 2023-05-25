@@ -1,6 +1,14 @@
+<div class="spinner-container" *ngIf="isLoading">
+  <div class="spinner"></div>
+  <p class="message">Please wait...</p>
+</div>
+
+<a routerLink="/" class="back-button">
+  <span class="back-arrow"></span>
+  Back
+</a>
+
 <div *ngIf="allBooks.length > 0">
-  <front-end-internship-assignment-table-view
-  [booksList]="allBooks"
-  [subjectName]="subjectName"
-  ></front-end-internship-assignment-table-view>
+  <front-end-internship-assignment-table-view [booksList]="allBooks"
+    [subjectName]="subjectName"></front-end-internship-assignment-table-view>
 </div>

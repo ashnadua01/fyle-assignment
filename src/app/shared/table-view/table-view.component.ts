@@ -7,6 +7,11 @@ import { Book } from 'src/app/core/models/book-response.model';
   styleUrls: ['./table-view.component.scss'],
 })
 export class TableViewComponent {
-  @Input() booksList: Book[] = [];
-  @Input() subjectName: string = '';
+  public p=1;
+  @Input() booksList: any[] = [];
+  @Input() subjectName = '';
+
+  get pagedBooksList(): any[] {
+    return this.booksList;
+  }
 }

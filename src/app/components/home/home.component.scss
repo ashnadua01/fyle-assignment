@@ -29,3 +29,50 @@
   tw-rounded-4-px
   tw-shadow-lg
 }
+
+.no-data-message {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-button button {
+  display: none;
+}
+
+.search-button input:not(empty) + button {
+  display: block;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #ccc;
+  border-radius: 50%;
+  border-top-color: #999;
+  animation: spin 1s ease-in-out infinite;
+}
+
+.message {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg);
+  }
+}

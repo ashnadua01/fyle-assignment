@@ -22,6 +22,9 @@
     "@fortawesome/angular-fontawesome": "^0.12.1",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@material-icons/font": "^1.0.36",
+    "ng2-search-filter": "^0.5.1",
+    "ngx-pagination": "^6.0.3",
+    "ngx-spinner": "^16.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
@@ -33,7 +36,7 @@
     "@angular-eslint/eslint-plugin": "~15.0.0",
     "@angular-eslint/eslint-plugin-template": "~15.0.0",
     "@angular-eslint/template-parser": "~15.0.0",
-    "@angular/cli": "~15.2.0",
+    "@angular/cli": "^16.0.3",
     "@angular/compiler-cli": "~15.2.0",
     "@angular/language-service": "~15.2.0",
     "@nrwl/angular": "^15.9.2",
